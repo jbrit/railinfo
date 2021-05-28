@@ -7,3 +7,7 @@ ALLOWED_HOSTS = []
 ROOT_URLCONF = 'railinfo.urls'
 
 WSGI_APPLICATION = 'railinfo.wsgi.application'
+
+MIDDLEWARE = [
+    'django.middleware.common.CommonMiddleware',
+]
